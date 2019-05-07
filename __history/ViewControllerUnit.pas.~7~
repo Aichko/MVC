@@ -1,0 +1,40 @@
+unit ViewControllerUnit;
+
+interface
+
+uses
+PanelsUnit,
+ButtonsUnit,
+InvironmentInterfaceUnit,
+  ViewControllerInterfaceUnit;
+
+type
+  ViewController = Class(TInterfacedObject, ViewControllerInterface)
+  private
+    Invironment: InvironmentInterface;
+  public
+    procedure CreateButton;
+    Procedure CreatePanel;
+    constructor create;
+  End;
+
+implementation
+
+{ ViewController }
+
+constructor ViewController.create;
+begin
+
+end;
+
+procedure ViewController.CreateButton;
+begin
+  Invironment:= Panels.create;
+end;
+
+procedure ViewController.CreatePanel;
+begin
+  Invironment:= Buttons.create;
+end;
+
+end.

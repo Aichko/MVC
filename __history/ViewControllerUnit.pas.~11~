@@ -1,0 +1,50 @@
+unit ViewControllerUnit;
+
+interface
+
+uses
+  PanelsUnit,
+  ButtonsUnit,
+  InvironmentInterfaceUnit,
+  ViewControllerInterfaceUnit;
+
+type
+  ViewController = Class(TInterfacedObject, ViewControllerInterface)
+  private
+    /// <link>aggregation</link>
+    Invironment: InvironmentInterface;
+    procedure DestroyInvironment;
+  public
+    procedure CreateButton;
+    Procedure CreatePanel;
+    constructor create;
+  End;
+
+implementation
+
+{ ViewController }
+
+constructor ViewController.create;
+begin
+
+end;
+
+procedure ViewController.CreateButton;
+begin
+  DestroyInvironment;
+  Invironment := Panels.create;
+end;
+
+procedure ViewController.CreatePanel;
+begin
+  DestroyInvironment;
+  Invironment := Buttons.create;
+end;
+
+procedure ViewController.DestroyInvironment;
+begin
+  if not assigned(Invironment) then
+    Invironment.Destroy;
+end;
+
+end.

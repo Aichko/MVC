@@ -1,0 +1,16 @@
+unit ViewControllerInterfaceUnit;
+
+interface
+
+type
+  ViewControllerInterface = interface
+    procedure CreateButton;
+    Procedure CreatePanel;
+    procedure DestroyButton;
+    Procedure DestroyPanel;
+  end;
+
+
+implementation
+
+end.

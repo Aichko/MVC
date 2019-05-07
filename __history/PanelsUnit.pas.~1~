@@ -1,0 +1,17 @@
+unit PanelsUnit;
+
+interface
+
+uses
+  InvironmentInterfaceunit;
+
+type
+  Panels = class(TInterfacedObject, InvironmentInterface)
+  private
+    procedure DestroyPanel;
+
+  end;
+
+implementation
+
+end.

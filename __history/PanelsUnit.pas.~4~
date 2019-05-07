@@ -1,0 +1,37 @@
+unit PanelsUnit;
+
+interface
+
+uses
+  Vcl.Forms,
+  Vcl.ExtCtrls,
+  InvironmentInterfaceunit;
+
+type
+  Panels = class(TInterfacedObject, InvironmentInterface)
+  private
+    Panel: TPanel;
+  public
+    procedure Destroy;
+    Constructor Create(Aowner: TForm);
+  end;
+
+implementation
+
+{ Panels }
+
+constructor Panels.Create(AOwner: TForm);
+begin
+  Panel:=TPanel.Create(AOwner);
+  With Panel do begin
+    parent := AOwner;
+  end;
+end;
+
+procedure Panels.Destroy;
+begin
+  Panel.Parent:=NIL;
+  Panel := NIL;
+end;
+
+end.

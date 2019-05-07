@@ -1,0 +1,40 @@
+unit ButtonsUnit;
+
+interface
+
+uses
+  Vcl.Forms,
+  Vcl.StdCtrls,
+  InvironmentInterfaceUnit;
+
+type
+  Buttons = class(TInterfacedObject, InvironmentInterface)
+  private
+    Button: TButton;
+  public
+    procedure Destroy;
+    constructor create(AOwner: TForm);
+  end;
+
+implementation
+
+{ Buttons }
+
+constructor Buttons.create(AOwner: TForm);
+begin
+  Button:= TButton.Create(AOwner);
+  with Button do begin
+    Parent := AOwner;
+
+  end;
+
+end;
+
+procedure Buttons.Destroy;
+begin
+  Button.Parent := NIL;
+  //Button.Free;
+  Button := NIL;
+end;
+
+end.

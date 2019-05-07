@@ -1,0 +1,38 @@
+unit PanelsUnit;
+
+interface
+
+uses
+  ViewControllerInterfaceUnit,
+  Vcl.Forms,
+  Vcl.ExtCtrls,
+  InvironmentInterfaceunit;
+
+type
+  Panels = class(TInterfacedObject, InvironmentInterface)
+  private
+    Panel: TPanel;
+  public
+    procedure Destroy;
+    Constructor Create(Aowner: ViewControllerInterface);
+  end;
+
+implementation
+
+{ Panels }
+
+constructor Panels.Create(AOwner: TForm);
+begin
+  Panel:=TPanel.Create(AOwner.GetForm);
+  With Panel do begin
+    Parent := AOwner.GetForm;
+  end;
+end;
+
+procedure Panels.Destroy;
+begin
+  Panel.Parent:=NIL;
+  Panel := NIL;
+end;
+
+end.

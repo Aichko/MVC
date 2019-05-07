@@ -1,0 +1,29 @@
+unit ViewControllerUnit;
+
+interface
+
+uses
+  ViewControllerInterfaceUnit;
+
+type
+  ViewController = Class(TInterfacedObject, ViewControllerInterface)
+  public
+    procedure CreateButton;
+    Procedure CreatePanel;
+  End;
+
+implementation
+
+{ ViewController }
+
+procedure ViewController.CreateButton;
+begin
+
+end;
+
+procedure ViewController.CreatePanel;
+begin
+
+end;
+
+end.

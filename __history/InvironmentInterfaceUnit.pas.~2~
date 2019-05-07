@@ -1,0 +1,13 @@
+unit InvironmentInterfaceUnit;
+
+interface
+ type
+   InvironmentInterface = interface
+     procedure DestroyButton;
+     procedure DestroyPanel;
+   end;
+
+
+implementation
+
+end.

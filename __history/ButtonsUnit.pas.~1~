@@ -1,0 +1,17 @@
+unit ButtonsUnit;
+
+interface
+
+uses
+  InvironmentInterfaceUnit;
+
+type
+  Buttons = class(TInterfacedObject, InvironmentInterface)
+  private
+    Procedure DestroyButton;
+
+  end;
+
+implementation
+
+end.

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="k8jqekw1iko_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Project4:Unit4.TForm4">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="-140,0,232,115" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Project4:Unit4.TForm4.FormCreate(System.TObject)" />
+      <reference referencedUin="delphi:e_field:src:Project4:Unit4.TForm4.ViewController1" />
+      <reference referencedUin="delphi:l_ast:src:Project4:Unit4.TForm4.ViewController1">
+        <property name="sourceAnchor" value="-140,55" />
+        <property name="targetAnchor" value="-670,55" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project4:Unit4.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:Project4:Unit4.@unitclass.Form4" />
+      <reference referencedUin="delphi:l_ast:src:Project4:Unit4.@unitclass.Form4" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project4:ButtonsUnit.Buttons">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="-640,400,189,160" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:l_impl:src:Project4:ButtonsUnit.Buttons:InvironmentInterfaceUnit.InvironmentInterface">
+        <property name="sourceAnchor" value="-637,400" />
+        <property name="targetAnchor" value="-775,281" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:e_method:src:Project4:ButtonsUnit.Buttons.Destroy()" />
+      <reference referencedUin="delphi:e_field:src:Project4:ButtonsUnit.Buttons.Button" />
+      <reference referencedUin="delphi:e_method:src:Project4:ButtonsUnit.Buttons.create(Vcl.Forms.TForm)" />
+      <reference referencedUin="delphi:e_field:src:Project4:ButtonsUnit.Buttons.AOwner" />
+      <reference referencedUin="delphi:e_method:src:Project4:ButtonsUnit.Buttons.ButtonOnClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project4:ButtonsUnit.Buttons.create(ViewControllerInterfaceUnit.ViewControllerInterface)" />
+      <reference referencedUin="delphi:l_ast:src:Project4:ButtonsUnit.Buttons.AOwner">
+        <property name="sourceAnchor" value="-598,400" />
+        <property name="targetAnchor" value="-788,111" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project4:InvironmentInterfaceUnit.InvironmentInterface">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="-960,200,276,81" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Project4:InvironmentInterfaceUnit.InvironmentInterface.Destroy()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project4:ModelControllerInterfaceUnit.ModelControllerInterface">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="60,160,324,64" />
+      <property name="location_set_by_user" value="True" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project4:PanelsUnit.Panels">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="-1200,400,189,160" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:l_impl:src:Project4:PanelsUnit.Panels:InvironmentInterfaceUnit.InvironmentInterface">
+        <property name="sourceAnchor" value="-1011,400" />
+        <property name="targetAnchor" value="-869,281" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:e_method:src:Project4:PanelsUnit.Panels.Destroy()" />
+      <reference referencedUin="delphi:e_field:src:Project4:PanelsUnit.Panels.Panel" />
+      <reference referencedUin="delphi:e_field:src:Project4:PanelsUnit.Panels.AOwner" />
+      <reference referencedUin="delphi:e_method:src:Project4:PanelsUnit.Panels.PanelOnClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project4:PanelsUnit.Panels.Create(ViewControllerInterfaceUnit.ViewControllerInterface)" />
+      <reference referencedUin="delphi:l_ast:src:Project4:PanelsUnit.Panels.AOwner">
+        <property name="sourceAnchor" value="-1052,400" />
+        <property name="targetAnchor" value="-862,111" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project4:ViewControllerInterfaceUnit.ViewControllerInterface">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="-980,0,310,111" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Project4:ViewControllerInterfaceUnit.ViewControllerInterface.CreateButton()" />
+      <reference referencedUin="delphi:e_method:src:Project4:ViewControllerInterfaceUnit.ViewControllerInterface.CreatePanel()" />
+      <reference referencedUin="delphi:e_method:src:Project4:ViewControllerInterfaceUnit.ViewControllerInterface.GetForm()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project4:ViewControllerUnit.ViewController">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="-540,140,246,205" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Project4:ViewControllerUnit.ViewController.CreateButton()" />
+      <reference referencedUin="delphi:e_method:src:Project4:ViewControllerUnit.ViewController.CreatePanel()" />
+      <reference referencedUin="delphi:e_field:src:Project4:ViewControllerUnit.ViewController.Invironment" />
+      <reference referencedUin="delphi:e_method:src:Project4:ViewControllerUnit.ViewController.create()" />
+      <reference referencedUin="delphi:l_impl:src:Project4:ViewControllerUnit.ViewController:ViewControllerInterfaceUnit.ViewControllerInterface">
+        <property name="sourceAnchor" value="-540,186" />
+        <property name="targetAnchor" value="-703,111" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:Project4:ViewControllerUnit.ViewController.Invironment">
+        <property name="sourceAnchor" value="-540,240" />
+        <property name="targetAnchor" value="-684,240" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:e_method:src:Project4:ViewControllerUnit.ViewController.DestroyInvironment()" />
+      <reference referencedUin="delphi:e_field:src:Project4:ViewControllerUnit.ViewController.AOwner" />
+      <reference referencedUin="delphi:e_method:src:Project4:ViewControllerUnit.ViewController.create(Vcl.Forms.TForm)" />
+      <reference referencedUin="delphi:e_method:src:Project4:ViewControllerUnit.ViewController.GetForm()" />
+      <reference referencedUin="delphi:e_field:src:Project4:ViewControllerUnit.ViewController.ModuleController" />
+      <reference referencedUin="delphi:l_ast:src:Project4:ViewControllerUnit.ViewController.ModuleController">
+        <property name="sourceAnchor" value="-294,192" />
+        <property name="targetAnchor" value="60,192" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project4:ModelControllerUnit.ModelController">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="100,300,223,81" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:l_impl:src:Project4:ModelControllerUnit.ModelController:ModelControllerInterfaceUnit.ModelControllerInterface">
+        <property name="sourceAnchor" value="211,300" />
+        <property name="targetAnchor" value="211,224" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+  </view>
+</nodeSet>

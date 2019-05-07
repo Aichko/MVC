@@ -1,0 +1,27 @@
+unit ViewControllerUnit;
+
+interface
+
+uses
+  ViewControllerInterfaceUnit, InvironmentInterfaceUnit;
+
+type
+  ViewController = Class(TInterfacedObject, ViewControllerInterface)
+
+  End;
+
+  Panels = class(TInterfacedObject, InvironmentInterface)
+  private
+    procedure DestroyPanel;
+
+  end;
+
+  Buttons = class(TInterfacedObject, InvironmentInterface)
+  private
+    Procedure DestroyButton;
+
+  end;
+
+implementation
+
+end.

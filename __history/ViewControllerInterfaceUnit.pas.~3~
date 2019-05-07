@@ -1,0 +1,13 @@
+unit ViewControllerInterfaceUnit;
+
+interface
+
+type
+  ViewControllerInterface = interface
+    procedure CreateButton;
+    Procedure CreatePanel;
+  end;
+
+implementation
+
+end.
